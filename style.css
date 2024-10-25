@@ -1,0 +1,141 @@
+.box2{
+    margin-top: 15px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    padding: 40px;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    left: 34%;
+    background-image: url(image/sj.jpg);
+    background-size: 480px;
+}
+body{
+    background-color: rgb(241, 246, 250);
+}
+input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(234, 234, 210);
+}
+button{
+    margin: 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+}
+.box1{
+    position: relative;
+    text-align: center ;
+}
+.res{
+    background-color:black ;
+    color: aliceblue;
+}
+#count{
+    background-color: aliceblue;
+    color: black;
+}
+#result{
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 6px;
+    border-color: cadetblue ;
+}
+@media screen and (max-width:800px){
+    .box2{
+       width: 250px;
+       left: 29%;
+    }
+    input{
+        padding: 5px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 200px;
+        height: 20px;
+        background-color: rgb(234, 234, 210);
+    }
+    button{
+        margin: 10px;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+    }
+    
+    .res{
+        width: 300px;
+    }
+}
+@media screen and (max-width:550px){
+    .egs{
+        font-size: 22px;
+    }
+    .box2{
+        width: 200px;
+        left: 20%;
+     }
+     .logo{
+        width: 100px;
+     }
+     input{
+         padding: 5px;
+         margin: 10px;
+         border-radius: 10px;
+         width: 150px;
+         height: 20px;
+         background-color: rgb(234, 234, 210);
+     }
+     button{
+        margin: 0%;
+         width:200px;
+         height: 50px;
+     }
+     
+     .res{
+         width: 200px;
+         margin: 20px;
+     }
+}
+@media screen and (max-width:450px){
+    input{
+        width: 180px;
+    }
+    button{
+        width: 150px;
+    }
+    .box2{
+        left:17%;
+    }
+}
+@media screen and (max-width:450px){
+    
+    .box2{
+        left:12%;
+    }
+    
+}
+@media screen and (max-width:450px){
+    
+    .box2{
+        width: 180px;
+        left:8%;
+    }
+    input{
+        width: 140px;
+    }
+    button{
+        width: 130px;
+        height: 30px;
+    }
+    .res{
+        height:40px;
+    }
+    
+}
